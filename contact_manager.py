@@ -130,7 +130,7 @@ class ContactManager:
             self.contacts = []
 
         except FileNotFoundError:
-            print("contacts.json is corrupted. Staring with wmpty list.") 
+            print("contacts.json is corrupted. Staring with empty list.") 
             self.contacts = []
      
 
